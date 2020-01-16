@@ -44,7 +44,19 @@ findAverageNumber(...numbers)
 
 Functions are treated like any other data type, meaning that they can be passed as arguments, assigned to variables and many others. Different design patterns have evolved around that concept.
 
+### Javascript Functional Methods
+
+- map
+- filter
+- reduce
+- sort (mutates the stack)
+- every/some
+- sort
+- slice
 
 ## Vocabulary
 
 __Pure Function__: functions that don't depend on, and **don't modify anything outside its scope**, and do always return the **same result for the same input argument**.
+
+__Closure__: an inner function returned by an outer function that has access to both scopee, its own as well as of the outer function. Closures are a great way to create **private variables** since variables born in an outer function are accessed by an inner function, even if it has been returned.
+
